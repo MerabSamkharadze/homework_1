@@ -1,16 +1,29 @@
 // დავალება #1
 
-number = 100;
+let number = 100;
 
-result =
+let result =
   number < 50 ? "less than fifty" : number > 20 ? "more than twenty" : "error";
 console.log(result);
 
 // დავალება #2
 
-firstName = "მარიამ";
+let firstName = "მარიამ";
 
-checkName = firstName == "მარიამ" ? true : false;
+let checkName = firstName == "მარიამ" ? true : false;
 console.log(checkName);
 
 // დავალება #3
+
+let studentName = "მარიამ";
+
+switch (studentName) {
+  case "მარიამ":
+    console.log(true);
+
+    break;
+
+  default:
+    console.log(false);
+    break;
+}
