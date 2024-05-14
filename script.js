@@ -7,3 +7,10 @@ result =
 console.log(result);
 
 // დავალება #2
+
+firstName = "მარიამ";
+
+checkName = firstName == "მარიამ" ? true : false;
+console.log(checkName);
+
+// დავალება #3
