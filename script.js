@@ -2,9 +2,17 @@
 
 let number = 100;
 
-let result =
-  number < 50 ? "less than fifty" : number > 20 ? "more than twenty" : "error";
-console.log(result);
+if (number < 50) {
+  console.log("less than fifty");
+} else if (number > 20) {
+  console.log("more than twenty");
+} else {
+  console.log("error");
+}
+
+// let result =
+//   number < 50 ? "less than fifty" : number > 20 ? "more than twenty" : "error";
+// console.log(result);
 
 // დავალება #2
 
